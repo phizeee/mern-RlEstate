@@ -7,15 +7,15 @@ import Profile from './Profile';
 import Header from './components/Header';
 
 export default function App() {
-  return ( <BrowserRouter>
-  <Header/>
-  <Routes>
-    <Route path='/' element={<Home />} />
-    <Route path='/Sign-in' element={<SignIn />} />
-    <Route path='/Sign-up' element={<SignUp />} />
-    <Route path='/about' element={<About />} />
-    <Route path='/profile' element={<Profile />} />
-  </Routes>
-    </BrowserRouter>
+  return (<BrowserRouter>
+    <Header />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/Sign-in' element={<SignIn />} />
+      <Route path='/Sign-up' element={<SignUp />} />
+      <Route path='/about' element={<About />} />
+      <Route path='/profile' element={<Profile />} />
+    </Routes>
+  </BrowserRouter>
   )
-}
+};

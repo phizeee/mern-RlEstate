@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: rgb(red,green, blue)
-} 
+:root {
+    --custom-red: 255;
+    --custom-green: 0;
+    --custom-blue: 0;
+}
+
+body {
+    background-color: rgb(var(--custom-red), var(--custom-green), var(--custom-blue));
+}
